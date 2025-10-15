@@ -12,7 +12,7 @@ namespace DeAn_qlNhanVien
         public bool Dangki(string tenDangNhap, string tenNguoiDung, string gioiTinh,
                                  string matKhau, string email, string soDienThoai, string diaChi)
         {
-            string conn = "Data Source=LAPTOP-J4N69Q1T\\ANHTHU;Initial Catalog=ql_thoigian;Integrated Security=True";
+            string conn = "Data Source=LAPTOP-J4N69Q1T\\ANHTHU;Initial Catalog=ql_nhanvien;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
 
             // Câu lệnh SQL để chèn dữ liệu vào bảng NhanVien
             // Sử dụng các tham số (@param) để ngăn chặn tấn công SQL Injection

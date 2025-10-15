@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtTieude = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -50,8 +52,6 @@
             this.dtpBD = new System.Windows.Forms.DateTimePicker();
             this.dtpKT = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,6 +80,38 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(599, 38);
             this.panel1.TabIndex = 41;
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.SystemColors.Control;
+            this.guna2Button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button2.Image = global::DeAn_qlNhanVien.Properties.Resources.work_in_progress;
+            this.guna2Button2.Location = new System.Drawing.Point(187, 1);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(151, 34);
+            this.guna2Button2.TabIndex = 42;
+            this.guna2Button2.Text = "Tiến độ";
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.SystemColors.Control;
+            this.guna2Button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button1.Image = global::DeAn_qlNhanVien.Properties.Resources.add;
+            this.guna2Button1.Location = new System.Drawing.Point(3, 3);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(151, 34);
+            this.guna2Button1.TabIndex = 0;
+            this.guna2Button1.Text = "Cập nhật";
             // 
             // label1
             // 
@@ -173,10 +205,10 @@
             this.cmbCagiao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cmbCagiao.ItemHeight = 30;
             this.cmbCagiao.Items.AddRange(new object[] {
-            "Ca 1",
-            "Ca 2",
-            "Ca 3",
-            "Ca 4"});
+            "1",
+            "2",
+            "3",
+            "4"});
             this.cmbCagiao.Location = new System.Drawing.Point(16, 332);
             this.cmbCagiao.Name = "cmbCagiao";
             this.cmbCagiao.Size = new System.Drawing.Size(581, 36);
@@ -288,18 +320,22 @@
             // 
             // dtpBD
             // 
-            this.dtpBD.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dtpBD.CustomFormat = "dd/MM/yyyy HH:mm";
+            this.dtpBD.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpBD.Location = new System.Drawing.Point(175, 172);
             this.dtpBD.Name = "dtpBD";
-            this.dtpBD.Size = new System.Drawing.Size(111, 22);
+            this.dtpBD.ShowUpDown = true;
+            this.dtpBD.Size = new System.Drawing.Size(152, 22);
             this.dtpBD.TabIndex = 59;
             // 
             // dtpKT
             // 
-            this.dtpKT.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dtpKT.Location = new System.Drawing.Point(370, 174);
+            this.dtpKT.CustomFormat = "dd/MM/yyyy HH:mm";
+            this.dtpKT.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpKT.Location = new System.Drawing.Point(399, 174);
             this.dtpKT.Name = "dtpKT";
-            this.dtpKT.Size = new System.Drawing.Size(107, 22);
+            this.dtpKT.ShowUpDown = true;
+            this.dtpKT.Size = new System.Drawing.Size(152, 22);
             this.dtpKT.TabIndex = 60;
             // 
             // label6
@@ -307,43 +343,11 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.SystemColors.Control;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(315, 174);
+            this.label6.Location = new System.Drawing.Point(351, 175);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(24, 22);
             this.label6.TabIndex = 61;
             this.label6.Text = "--";
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.SystemColors.Control;
-            this.guna2Button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.Image = global::DeAn_qlNhanVien.Properties.Resources.work_in_progress;
-            this.guna2Button2.Location = new System.Drawing.Point(187, 1);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(151, 34);
-            this.guna2Button2.TabIndex = 42;
-            this.guna2Button2.Text = "Tiến độ";
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.SystemColors.Control;
-            this.guna2Button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Image = global::DeAn_qlNhanVien.Properties.Resources.add;
-            this.guna2Button1.Location = new System.Drawing.Point(3, 3);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(151, 34);
-            this.guna2Button1.TabIndex = 0;
-            this.guna2Button1.Text = "Cập nhật";
             // 
             // frmGiaoviec
             // 

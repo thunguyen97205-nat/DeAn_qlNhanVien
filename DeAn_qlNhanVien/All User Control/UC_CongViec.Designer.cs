@@ -105,7 +105,7 @@
             this.flpDanglam.Name = "flpDanglam";
             this.flpDanglam.Size = new System.Drawing.Size(227, 457);
             this.flpDanglam.TabIndex = 2;
-            this.flpDanglam.Paint += new System.Windows.Forms.PaintEventHandler(this.flpDanglam_Paint);
+            
             // 
             // flpHoanthanh
             // 
@@ -144,7 +144,7 @@
             // 
             this.timer1.Enabled = true;
             this.timer1.Interval = 5000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+
             // 
             // guna2Elipse1
             // 

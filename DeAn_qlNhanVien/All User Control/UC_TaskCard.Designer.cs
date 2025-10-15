@@ -37,6 +37,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lbTenCV = new System.Windows.Forms.Label();
             this.cmbTrangThai = new System.Windows.Forms.ComboBox();
+            this.btnHoanthanh = new Guna.UI2.WinForms.Guna2Button();
+            this.btnDanglam = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // txtNguoiht
@@ -125,10 +127,44 @@
             this.cmbTrangThai.TabIndex = 20;
             this.cmbTrangThai.SelectedIndexChanged += new System.EventHandler(this.cmbTrangThai_SelectedIndexChanged);
             // 
+            // btnHoanthanh
+            // 
+            this.btnHoanthanh.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHoanthanh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHoanthanh.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHoanthanh.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHoanthanh.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(190)))));
+            this.btnHoanthanh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHoanthanh.ForeColor = System.Drawing.Color.Black;
+            this.btnHoanthanh.Location = new System.Drawing.Point(274, 175);
+            this.btnHoanthanh.Name = "btnHoanthanh";
+            this.btnHoanthanh.Size = new System.Drawing.Size(154, 33);
+            this.btnHoanthanh.TabIndex = 21;
+            this.btnHoanthanh.Text = "Hoàn thành";
+            this.btnHoanthanh.Click += new System.EventHandler(this.btnHoanthanh_Click);
+            // 
+            // btnDanglam
+            // 
+            this.btnDanglam.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDanglam.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDanglam.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDanglam.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDanglam.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(190)))));
+            this.btnDanglam.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDanglam.ForeColor = System.Drawing.Color.Black;
+            this.btnDanglam.Location = new System.Drawing.Point(89, 175);
+            this.btnDanglam.Name = "btnDanglam";
+            this.btnDanglam.Size = new System.Drawing.Size(154, 33);
+            this.btnDanglam.TabIndex = 22;
+            this.btnDanglam.Text = "Đang làm";
+            this.btnDanglam.Click += new System.EventHandler(this.btnDanglam_Click);
+            // 
             // UC_TaskCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnDanglam);
+            this.Controls.Add(this.btnHoanthanh);
             this.Controls.Add(this.cmbTrangThai);
             this.Controls.Add(this.txtNguoiht);
             this.Controls.Add(this.txtMucdo);
@@ -139,8 +175,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbTenCV);
             this.Name = "UC_TaskCard";
-            this.Size = new System.Drawing.Size(493, 200);
-            this.Load += new System.EventHandler(this.UC_TaskCard_Load);
+            this.Size = new System.Drawing.Size(486, 225);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,5 +192,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lbTenCV;
         private System.Windows.Forms.ComboBox cmbTrangThai;
+        private Guna.UI2.WinForms.Guna2Button btnHoanthanh;
+        private Guna.UI2.WinForms.Guna2Button btnDanglam;
     }
 }

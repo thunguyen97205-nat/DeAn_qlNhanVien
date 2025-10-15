@@ -12,7 +12,7 @@ namespace DeAn_qlNhanVien
     {
         public bool DatlaiMK(string tenDangNhap, string matKhauMoi)
         {
-            string conn = "Data Source=LAPTOP-J4N69Q1T\\ANHTHU;Initial Catalog=ql_thoigian;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
+            string conn = "Data Source=LAPTOP-J4N69Q1T\\ANHTHU;Initial Catalog=ql_nhanvien;Integrated Security=True;TrustServerCertificate=True";
 
             // Câu lệnh SQL để cập nhật mật khẩu
             // Sử dụng tham số (@param) để ngăn chặn tấn công SQL Injection
