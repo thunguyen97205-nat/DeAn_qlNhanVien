@@ -1,93 +1,101 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DeAn_qlNhanVien\\",
+  "WorkspaceRootPath": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|d:\\dean_qlnhanvien\\dean_qlnhanvien\\passdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\passdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|d:\\dean_qlnhanvien\\dean_qlnhanvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\taskdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\taskdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\taskeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\taskeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\giaoviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\giaoviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\dangkidataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\dangkidataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\giaoviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\giaoviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\frmquenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\frmquenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\frmquenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\frmquenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|d:\\dean_qlnhanvien\\dean_qlnhanvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|d:\\dean_qlnhanvien\\dean_qlnhanvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|d:\\dean_qlnhanvien\\dean_qlnhanvien\\all user control\\uc_taskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\all user control\\uc_taskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_taskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\all user control\\uc_taskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|d:\\dean_qlnhanvien\\dean_qlnhanvien\\all user control\\uc_lichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_lichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\all user control\\uc_lichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|d:\\dean_qlnhanvien\\dean_qlnhanvien\\all user control\\uc_dangki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|d:\\deanquanlynhanvien\\dean_qlnhanvien\\dean_qlnhanvien\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_lichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\all user control\\uc_lichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_lichlam.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\all user control\\uc_lichlam.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\passdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\passdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\taskdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\taskdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\taskeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\taskeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\giaoviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\giaoviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\dangkidataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\dangkidataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\giaoviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\giaoviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\frmquenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\frmquenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\frmquenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\frmquenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_taskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\all user control\\uc_taskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_taskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\all user control\\uc_taskcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_dangki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\all user control\\uc_dangki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|d:\\dean_qlnhanvien\\dean_qlnhanvien\\all user control\\uc_dangki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_dangki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\all user control\\uc_dangki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_congviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_congviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\all user control\\uc_congviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_congviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_congviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\all user control\\uc_congviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_congviec.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\dean_qlnhanvien\\all user control\\uc_congviec.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F77FC5AB-5779-4163-A30C-D777A5A24EE0}|DeAn_qlNhanVien\\DeAn_qlNhanVien.csproj|solutionrelative:dean_qlnhanvien\\all user control\\uc_congviec.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -98,218 +106,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PassDataAccess.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\PassDataAccess.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\PassDataAccess.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\PassDataAccess.cs",
-              "RelativeToolTip": "DeAn_qlNhanVien\\PassDataAccess.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T03:46:05.921Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Program.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Program.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Program.cs",
-              "RelativeToolTip": "DeAn_qlNhanVien\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UC_Lichlam.Designer.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Lichlam.Designer.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_Lichlam.Designer.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Lichlam.Designer.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\All User Control\\UC_Lichlam.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T03:40:36.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Giaoviec.cs [Design]",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Giaoviec.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Giaoviec.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Giaoviec.cs [Design]",
-              "RelativeToolTip": "DeAn_qlNhanVien\\Giaoviec.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T17:45:21.304Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Giaoviec.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Giaoviec.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Giaoviec.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Giaoviec.cs",
-              "RelativeToolTip": "DeAn_qlNhanVien\\Giaoviec.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T01:24:16.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DangKiDataAccess.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\DangKiDataAccess.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\DangKiDataAccess.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\DangKiDataAccess.cs",
-              "RelativeToolTip": "DeAn_qlNhanVien\\DangKiDataAccess.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAACGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T00:44:34.571Z",
+              "WhenOpened": "2025-10-16T05:53:35.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Task.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Task.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Task.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Task.cs",
-              "RelativeToolTip": "DeAn_qlNhanVien\\Task.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCMAAAANAAAAAAAAAA==",
+              "Title": "UC_Lichlam.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Lichlam.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_Lichlam.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Lichlam.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\All User Control\\UC_Lichlam.cs",
+              "ViewState": "AgIAAIABAAAAAAAAAAAcwJoBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T05:34:30.773Z",
+              "WhenOpened": "2025-10-16T05:53:29.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskDataAccess.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\TaskDataAccess.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\TaskDataAccess.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\TaskDataAccess.cs",
-              "RelativeToolTip": "DeAn_qlNhanVien\\TaskDataAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "PassDataAccess.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\PassDataAccess.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\PassDataAccess.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\PassDataAccess.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\PassDataAccess.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T19:23:52.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskEventArgs.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\TaskEventArgs.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\TaskEventArgs.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\TaskEventArgs.cs",
-              "RelativeToolTip": "DeAn_qlNhanVien\\TaskEventArgs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T09:10:21.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T03:46:05.921Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "frmQuenMK.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\frmQuenMK.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\frmQuenMK.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\frmQuenMK.cs",
-              "RelativeToolTip": "DeAn_qlNhanVien\\frmQuenMK.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "TaskDataAccess.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\TaskDataAccess.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\TaskDataAccess.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\TaskDataAccess.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\TaskDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T00:53:33.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T19:23:52.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmQuenMK.cs [Design]",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\frmQuenMK.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\frmQuenMK.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\frmQuenMK.cs [Design]",
-              "RelativeToolTip": "DeAn_qlNhanVien\\frmQuenMK.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T06:39:59.158Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Form1.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Form1.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Form1.cs",
-              "RelativeToolTip": "DeAn_qlNhanVien\\Form1.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T03:40:00.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Form1.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Form1.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Form1.cs [Design]",
-              "RelativeToolTip": "DeAn_qlNhanVien\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T03:39:59.005Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Dashboard.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Dashboard.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Dashboard.cs [Design]",
-              "RelativeToolTip": "DeAn_qlNhanVien\\Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T06:46:19.584Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UC_TaskCard.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs",
-              "RelativeToolTip": "DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAswA4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T00:44:22.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UC_TaskCard.cs [Design]",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs [Design]",
-              "RelativeToolTip": "DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T12:48:58.815Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Dashboard.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Dashboard.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Dashboard.cs",
-              "RelativeToolTip": "DeAn_qlNhanVien\\Dashboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T19:56:11.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
               "Title": "UC_Lichlam.cs [Design]",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Lichlam.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Lichlam.cs",
               "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_Lichlam.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Lichlam.cs [Design]",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Lichlam.cs [Design]",
               "RelativeToolTip": "DeAn_qlNhanVien\\All User Control\\UC_Lichlam.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T03:39:00.516Z",
@@ -317,66 +180,225 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UC_Dangki.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs",
-              "RelativeToolTip": "DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Dashboard.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Dashboard.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Dashboard.cs [Design]",
+              "RelativeToolTip": "DeAn_qlNhanVien\\Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T03:38:54.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T06:46:19.584Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Dashboard.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Dashboard.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Dashboard.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\Dashboard.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAMwDYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T19:56:11.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Task.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Task.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Task.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Task.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\Task.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T05:34:30.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DangKiDataAccess.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\DangKiDataAccess.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\DangKiDataAccess.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\DangKiDataAccess.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\DangKiDataAccess.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T00:44:34.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Giaoviec.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Giaoviec.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Giaoviec.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Giaoviec.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\Giaoviec.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T01:24:16.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaskEventArgs.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\TaskEventArgs.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\TaskEventArgs.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\TaskEventArgs.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\TaskEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T09:10:21.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Giaoviec.cs [Design]",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Giaoviec.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Giaoviec.cs",
+              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Giaoviec.cs [Design]",
+              "RelativeToolTip": "..\\..\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Giaoviec.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T17:45:21.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Program.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Program.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Program.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T03:40:36.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmQuenMK.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\frmQuenMK.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\frmQuenMK.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\frmQuenMK.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\frmQuenMK.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T00:53:33.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmQuenMK.cs [Design]",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\frmQuenMK.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\frmQuenMK.cs",
+              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\frmQuenMK.cs [Design]",
+              "RelativeToolTip": "..\\..\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\frmQuenMK.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:39:59.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Form1.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Form1.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Form1.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\Form1.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T03:40:00.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Form1.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\Form1.cs",
+              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T03:39:59.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UC_TaskCard.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAswA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T00:44:22.097Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "UC_Dangki.cs [Design]",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs [Design]",
-              "RelativeToolTip": "DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs [Design]",
+              "Title": "UC_TaskCard.cs [Design]",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs",
+              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs [Design]",
+              "RelativeToolTip": "..\\..\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_TaskCard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T03:38:50.259Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UC_CongViec.cs [Design]",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs [Design]",
-              "RelativeToolTip": "DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T19:16:46.753Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-24T12:48:58.815Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "UC_CongViec.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs",
-              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs",
-              "RelativeToolTip": "DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
+              "Title": "UC_Dangki.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T00:41:00.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T03:38:54.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UC_Dangki.cs [Design]",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs",
+              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs [Design]",
+              "RelativeToolTip": "..\\..\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_Dangki.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T03:38:50.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UC_CongViec.cs [Design]",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs",
+              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs [Design]",
+              "RelativeToolTip": "..\\..\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T19:16:46.753Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "UC_CongViec.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs",
+              "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs",
+              "RelativeToolTip": "DeAn_qlNhanVien\\All User Control\\UC_CongViec.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T00:41:00.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "UC_CongViec.Designer.cs",
-              "DocumentMoniker": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_CongViec.Designer.cs",
+              "DocumentMoniker": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_CongViec.Designer.cs",
               "RelativeDocumentMoniker": "DeAn_qlNhanVien\\All User Control\\UC_CongViec.Designer.cs",
-              "ToolTip": "D:\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_CongViec.Designer.cs",
+              "ToolTip": "D:\\Deanquanlynhanvien\\DeAn_qlNhanVien\\DeAn_qlNhanVien\\All User Control\\UC_CongViec.Designer.cs",
               "RelativeToolTip": "DeAn_qlNhanVien\\All User Control\\UC_CongViec.Designer.cs",
               "ViewState": "AgIAAIIAAAAAAAAAAAAQwJIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T09:52:43.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T09:52:43.943Z"
             }
           ]
         }

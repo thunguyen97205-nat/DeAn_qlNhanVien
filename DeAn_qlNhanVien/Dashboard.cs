@@ -51,5 +51,7 @@ namespace DeAn_qlNhanVien
         {
             Application.Exit();
         }
+
+       
     }
 }
