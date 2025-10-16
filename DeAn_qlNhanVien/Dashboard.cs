@@ -60,6 +60,8 @@ namespace DeAn_qlNhanVien
             Application.Exit();
         }
 
+       
+
         private void btnDangky_Click(object sender, EventArgs e)
         {
             pnlMain.Controls.Clear();

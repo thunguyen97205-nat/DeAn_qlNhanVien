@@ -56,6 +56,8 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.pnlMain = new System.Windows.Forms.Panel();
             this.uC_Dangki1 = new DeAn_qlNhanVien.All_User_Control.UC_Dangki();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.uC_Lichlam1 = new DeAn_qlNhanVien.All_User_Control.UC_Lichlam();
             this.guna2Panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -216,7 +218,7 @@
             this.btnLichlam.ForeColor = System.Drawing.Color.Black;
             this.btnLichlam.Image = global::DeAn_qlNhanVien.Properties.Resources.calendar;
             this.btnLichlam.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnLichlam.Location = new System.Drawing.Point(18, 56);
+            this.btnLichlam.Location = new System.Drawing.Point(10, 56);
             this.btnLichlam.Name = "btnLichlam";
             this.btnLichlam.Size = new System.Drawing.Size(218, 45);
             this.btnLichlam.TabIndex = 1;
@@ -433,13 +435,24 @@
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.Size = new System.Drawing.Size(765, 668);
             this.pnlMain.TabIndex = 16;
+            this.panel5.Controls.Add(this.uC_Lichlam1);
+            this.panel5.Location = new System.Drawing.Point(231, 56);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(765, 668);
+            this.panel5.TabIndex = 16;
             // 
             // uC_Dangki1
+            // uC_Lichlam1
             // 
             this.uC_Dangki1.Location = new System.Drawing.Point(0, 0);
             this.uC_Dangki1.Name = "uC_Dangki1";
             this.uC_Dangki1.Size = new System.Drawing.Size(765, 671);
             this.uC_Dangki1.TabIndex = 0;
+            this.uC_Lichlam1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(173)))), ((int)(((byte)(161)))));
+            this.uC_Lichlam1.Location = new System.Drawing.Point(0, 3);
+            this.uC_Lichlam1.Name = "uC_Lichlam1";
+            this.uC_Lichlam1.Size = new System.Drawing.Size(762, 662);
+            this.uC_Lichlam1.TabIndex = 0;
             // 
             // Dashboard
             // 
@@ -491,5 +504,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private System.Windows.Forms.Panel pnlMain;
         private All_User_Control.UC_Dangki uC_Dangki1;
+        private System.Windows.Forms.Panel panel5;
+        private All_User_Control.UC_Lichlam uC_Lichlam1;
     }
 }
