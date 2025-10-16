@@ -13,7 +13,12 @@ namespace DeAn_qlNhanVien.DataAccess
     public class TaskDataAccess
     {
         // 🔗 Chuỗi kết nối CSDL
-        private readonly string connectionString = "Data Source=LAPTOP-J4N69Q1T\\ANHTHU;Initial Catalog=ql_nhanvien;Integrated Security=True;TrustServerCertificate=True";
+        private readonly DatabaseConnection dbConn;
+
+        public TaskDataAccess()
+        {
+            dbConn = new DatabaseConnection();
+        }
 
         // === 1️⃣ LẤY TẤT CẢ CÔNG VIỆC TỪ CSDL ===
         public List<Task> GetAllTasks()
@@ -24,7 +29,7 @@ namespace DeAn_qlNhanVien.DataAccess
             string query = @"SELECT macv, tieude, mota, thoigian_bd, thoigian_kt, nguoigiao, mucdo_uutien, trangthai 
                              FROM congviec";
 
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlConnection connection = dbConn.OpenConnection())
             using (SqlCommand command = new SqlCommand(query, connection))
             {
                 try
@@ -82,7 +87,7 @@ namespace DeAn_qlNhanVien.DataAccess
                 OUTPUT INSERTED.macv
                 VALUES (@tieuDe, @moTa, @tgBD, @tgKT, @nguoiGiao, @mucDo, @trangThai);";
 
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (SqlConnection conn = dbConn.OpenConnection())
             using (SqlCommand cmd = new SqlCommand(query, conn))
             {
                 cmd.Parameters.AddWithValue("@tieuDe", task.TieuDe);
@@ -113,7 +118,7 @@ namespace DeAn_qlNhanVien.DataAccess
         {
             string query = "UPDATE congviec SET trangthai = @trangthai WHERE macv = @macv";
 
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlConnection connection = dbConn.OpenConnection())
             using (SqlCommand command = new SqlCommand(query, connection))
             {
                 command.Parameters.AddWithValue("@trangthai", newStatus.ToString());

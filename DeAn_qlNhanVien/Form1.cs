@@ -20,7 +20,7 @@ namespace DeAn_qlNhanVien
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-        
+
         }
 
         private void lkQuenmk_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

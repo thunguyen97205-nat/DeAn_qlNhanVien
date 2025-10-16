@@ -54,14 +54,13 @@
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.uC_CongViec1 = new DeAn_qlNhanVien.All_User_Control.UC_CongViec();
-            this.uC_CongViec2 = new DeAn_qlNhanVien.All_User_Control.UC_CongViec();
+            this.pnlMain = new System.Windows.Forms.Panel();
+            this.uC_Dangki1 = new DeAn_qlNhanVien.All_User_Control.UC_Dangki();
             this.guna2Panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
+            this.pnlMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -167,6 +166,7 @@
             this.btnDangky.TabIndex = 5;
             this.btnDangky.Text = "Đăng ký tài khoản";
             this.btnDangky.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDangky.Click += new System.EventHandler(this.btnDangky_Click);
             // 
             // btnChamcong
             // 
@@ -240,6 +240,7 @@
             this.btnCongviec.TabIndex = 2;
             this.btnCongviec.Text = "Công việc";
             this.btnCongviec.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnCongviec.Click += new System.EventHandler(this.btnCongviec_Click);
             // 
             // btnLuong
             // 
@@ -425,35 +426,27 @@
             this.panel4.Size = new System.Drawing.Size(996, 59);
             this.panel4.TabIndex = 2;
             // 
-            // panel5
+            // pnlMain
             // 
-            this.panel5.Controls.Add(this.uC_CongViec2);
-            this.panel5.Controls.Add(this.uC_CongViec1);
-            this.panel5.Location = new System.Drawing.Point(231, 56);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(765, 668);
-            this.panel5.TabIndex = 16;
+            this.pnlMain.Controls.Add(this.uC_Dangki1);
+            this.pnlMain.Location = new System.Drawing.Point(231, 56);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.Size = new System.Drawing.Size(765, 668);
+            this.pnlMain.TabIndex = 16;
             // 
-            // uC_CongViec1
+            // uC_Dangki1
             // 
-            this.uC_CongViec1.Location = new System.Drawing.Point(-701, 53);
-            this.uC_CongViec1.Name = "uC_CongViec1";
-            this.uC_CongViec1.Size = new System.Drawing.Size(765, 668);
-            this.uC_CongViec1.TabIndex = 0;
-            // 
-            // uC_CongViec2
-            // 
-            this.uC_CongViec2.Location = new System.Drawing.Point(0, 0);
-            this.uC_CongViec2.Name = "uC_CongViec2";
-            this.uC_CongViec2.Size = new System.Drawing.Size(765, 668);
-            this.uC_CongViec2.TabIndex = 1;
+            this.uC_Dangki1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Dangki1.Name = "uC_Dangki1";
+            this.uC_Dangki1.Size = new System.Drawing.Size(765, 671);
+            this.uC_Dangki1.TabIndex = 0;
             // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(997, 723);
-            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.guna2Button7);
             this.Controls.Add(this.guna2Panel1);
@@ -464,7 +457,7 @@
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
+            this.pnlMain.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -496,8 +489,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private System.Windows.Forms.Panel panel5;
-        private All_User_Control.UC_CongViec uC_CongViec2;
-        private All_User_Control.UC_CongViec uC_CongViec1;
+        private System.Windows.Forms.Panel pnlMain;
+        private All_User_Control.UC_Dangki uC_Dangki1;
     }
 }

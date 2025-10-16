@@ -11,17 +11,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DeAn_qlNhanVien;
+using DeAn_qlNhanVien.DataAccess;
 
 
 namespace DeAn_qlNhanVien
 {
     public partial class frmGiaoviec : Form
     {
+        private readonly DatabaseConnection dbConnection;
+        private readonly TaskDataAccess taskDataAccess;
         public Task AssignedTask { get; private set; }
 
         public frmGiaoviec()
         {
             InitializeComponent();
+            dbConnection = new DatabaseConnection();
+            taskDataAccess = new TaskDataAccess();
             LoadInitialData();
         }
 
@@ -29,53 +34,55 @@ namespace DeAn_qlNhanVien
         private void LoadInitialData()
         {
             // ComboBox Mức độ ưu tiên
+            // Giả định MucDoUuTien là một enum đã được định nghĩa
             cmbMucdo.DataSource = Enum.GetNames(typeof(MucDoUuTien));
             cmbMucdo.SelectedIndex = (int)MucDoUuTien.TrungBinh;
 
             // === NẠP DANH SÁCH LỊCH LÀM VIỆC (malv - tên ca) ===
-            using (SqlConnection conn = new SqlConnection("Data Source=LAPTOP-J4N69Q1T\\ANHTHU;Initial Catalog=ql_nhanvien;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"))
+            // SỬ DỤNG dbConnection.GetConnection() để lấy đối tượng SqlConnection
+            using (SqlConnection conn = dbConnection.GetConnection())
             {
-                string query = "SELECT malv, CONCAT(N'Ca ', CAST(malv AS NVARCHAR(10))) AS TenCa FROM lichlamviec";
-                SqlDataAdapter da = new SqlDataAdapter(query, conn);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
-                cmbCagiao.DataSource = dt;
-                cmbCagiao.DisplayMember = "TenCa";
-                cmbCagiao.ValueMember = "malv";
-            }
+                try
+                {
+                    // Mở kết nối trước khi dùng SqlDataAdapter
+                    conn.Open();
+
+                    // Query: Lấy mã lịch làm việc và tên hiển thị
+                    string query = @"SELECT malv, CONCAT(N'Ca ', CAST(malv AS NVARCHAR(10))) AS TenCa 
+                             FROM lichlamviec";
+
+                    SqlDataAdapter da = new SqlDataAdapter(query, conn);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+
+                    // Xử lý nếu không có dữ liệu
+                    if (dt.Rows.Count == 0)
+                    {
+                        MessageBox.Show("Không tìm thấy ca làm việc nào trong hệ thống.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        btnCapnhat.Enabled = false;
+                    }
+                    else
+                    {
+                        btnCapnhat.Enabled = true;
+                    }
+
+                    cmbCagiao.DataSource = dt;
+                    cmbCagiao.DisplayMember = "TenCa";  // Hiển thị 'Ca X'
+                    cmbCagiao.ValueMember = "malv";     // Giá trị thực tế là mã lịch làm việc
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi khi tải danh sách ca làm việc: " + ex.Message, "Lỗi CSDL", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    btnCapnhat.Enabled = false;
+                }
+            } // conn.Close() được gọi tự động nhờ khối 'using'
 
             this.AcceptButton = btnCapnhat;
             this.CancelButton = btnHuy;
         }
 
-        // =================== ĐỊNH DẠNG RICHTEXTBOX ===================
-        private void btnB_Click(object sender, EventArgs e)
-        {
-            if (rtbComment.SelectionFont != null)
-            {
-                var f = rtbComment.SelectionFont;
-                rtbComment.SelectionFont = new Font(f, f.Style ^ FontStyle.Bold);
-            }
-        }
-
-        private void btnI_Click(object sender, EventArgs e)
-        {
-            if (rtbComment.SelectionFont != null)
-            {
-                var f = rtbComment.SelectionFont;
-                rtbComment.SelectionFont = new Font(f, f.Style ^ FontStyle.Italic);
-            }
-        }
-
-        private void btnU_Click(object sender, EventArgs e)
-        {
-            if (rtbComment.SelectionFont != null)
-            {
-                var f = rtbComment.SelectionFont;
-                rtbComment.SelectionFont = new Font(f, f.Style ^ FontStyle.Underline);
-            }
-        }
-
+        
+       
         // =================== PLACEHOLDER ===================
         private void rtbComment_Enter(object sender, EventArgs e)
         {
@@ -125,45 +132,28 @@ namespace DeAn_qlNhanVien
             }
 
             // Parse Enum
-            MucDoUuTien mucDo;
-            if (!Enum.TryParse(mucDoStr, out mucDo))
+            // Chuyển chuỗi sang Enum
+            if (!Enum.TryParse(mucDoStr, out MucDoUuTien mucDo))
                 mucDo = MucDoUuTien.TrungBinh;
 
-            // Lưu vào database
+            // Tạo object Task
+            Task newTask = new Task
+            {
+                TieuDe = tieuDe,
+                MoTa = moTa,
+                ThoiGian_BD = tgBD,
+                ThoiGian_KT = tgKT,
+                MucDoUuTien = mucDo,
+                TrangThai = TrangThai.ChuaLam,
+                NguoiDuocGiao = tenNguoiDuocGiao
+            };
+
             try
             {
-                using (SqlConnection conn = new SqlConnection("Data Source=LAPTOP-J4N69Q1T\\ANHTHU;Initial Catalog=ql_thoigian;Integrated Security=True"))
-                {
-                    conn.Open();
-                    string query = @"INSERT INTO CongViec (TieuDe, MoTa, ThoiGian_BD, ThoiGian_KT, MucDoUuTien, TrangThai, NguoiDuocGiao)
-                                     VALUES (@tieude, @mota, @bd, @kt, @mucdo, @trangthai, @nguoiduocgiao)";
+                // ✅ Lưu vào database qua TaskDataAccess
+                taskDataAccess.SaveNewTask(newTask);
 
-                    using (SqlCommand cmd = new SqlCommand(query, conn))
-                    {
-                        cmd.Parameters.AddWithValue("@tieude", tieuDe);
-                        cmd.Parameters.AddWithValue("@mota", moTa);
-                        cmd.Parameters.AddWithValue("@bd", tgBD);
-                        cmd.Parameters.AddWithValue("@kt", tgKT);
-                        cmd.Parameters.AddWithValue("@mucdo", mucDo.ToString());
-                        cmd.Parameters.AddWithValue("@trangthai", TrangThai.ChuaLam.ToString());
-                        cmd.Parameters.AddWithValue("@nguoiduocgiao", tenNguoiDuocGiao); // 👈 dùng tên hoặc mã, tùy DB
-
-                        cmd.ExecuteNonQuery();
-                    }
-                }
-
-                // Tạo object Task để trả về form chính
-                AssignedTask = new Task
-                {
-                    TieuDe = tieuDe,
-                    MoTa = moTa,
-                    NguoiDuocGiao = tenNguoiDuocGiao,
-                    ThoiGian_BD = tgBD,
-                    ThoiGian_KT = tgKT,
-                    MucDoUuTien = mucDo,
-                    TrangThai = TrangThai.ChuaLam
-                };
-
+                AssignedTask = newTask;
                 MessageBox.Show("Thêm công việc mới thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.DialogResult = DialogResult.OK;
                 this.Close();
@@ -171,6 +161,34 @@ namespace DeAn_qlNhanVien
             catch (Exception ex)
             {
                 MessageBox.Show("Lỗi khi lưu công việc mới: " + ex.Message, "Lỗi CSDL", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        // =================== ĐỊNH DẠNG RICHTEXTBOX ===================
+        private void btnB_Click_1(object sender, EventArgs e)
+        {
+            if (rtbComment.SelectionFont != null)
+            {
+                var f = rtbComment.SelectionFont;
+                rtbComment.SelectionFont = new Font(f, f.Style ^ FontStyle.Bold);
+            }
+        }
+
+        private void btnI_Click_1(object sender, EventArgs e)
+        {
+            if (rtbComment.SelectionFont != null)
+            {
+                var f = rtbComment.SelectionFont;
+                rtbComment.SelectionFont = new Font(f, f.Style ^ FontStyle.Italic);
+            }
+        }
+
+        private void btnU_Click_1(object sender, EventArgs e)
+        {
+            if (rtbComment.SelectionFont != null)
+            {
+                var f = rtbComment.SelectionFont;
+                rtbComment.SelectionFont = new Font(f, f.Style ^ FontStyle.Underline);
             }
         }
     }

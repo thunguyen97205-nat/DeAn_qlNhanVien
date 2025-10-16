@@ -46,12 +46,12 @@
             this.rtbComment = new System.Windows.Forms.RichTextBox();
             this.btnCapnhat = new Guna.UI2.WinForms.Guna2Button();
             this.btnHuy = new Guna.UI2.WinForms.Guna2Button();
-            this.btnB = new Guna.UI2.WinForms.Guna2Button();
-            this.btnI = new Guna.UI2.WinForms.Guna2Button();
-            this.btnU = new Guna.UI2.WinForms.Guna2Button();
             this.dtpBD = new System.Windows.Forms.DateTimePicker();
             this.dtpKT = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnB = new Guna.UI2.WinForms.Guna2Button();
+            this.btnU = new Guna.UI2.WinForms.Guna2Button();
+            this.btnI = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -227,7 +227,7 @@
             // rtbComment
             // 
             this.rtbComment.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rtbComment.Location = new System.Drawing.Point(12, 431);
+            this.rtbComment.Location = new System.Drawing.Point(12, 422);
             this.rtbComment.Name = "rtbComment";
             this.rtbComment.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.rtbComment.Size = new System.Drawing.Size(585, 120);
@@ -270,54 +270,6 @@
             this.btnHuy.TabIndex = 55;
             this.btnHuy.Text = "Hủy";
             // 
-            // btnB
-            // 
-            this.btnB.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnB.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnB.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnB.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnB.FillColor = System.Drawing.SystemColors.Window;
-            this.btnB.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnB.ForeColor = System.Drawing.Color.Black;
-            this.btnB.Location = new System.Drawing.Point(470, 517);
-            this.btnB.Name = "btnB";
-            this.btnB.Size = new System.Drawing.Size(28, 25);
-            this.btnB.TabIndex = 56;
-            this.btnB.Text = "B";
-            this.btnB.Click += new System.EventHandler(this.btnB_Click);
-            // 
-            // btnI
-            // 
-            this.btnI.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnI.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnI.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnI.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnI.FillColor = System.Drawing.SystemColors.Window;
-            this.btnI.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnI.ForeColor = System.Drawing.Color.Black;
-            this.btnI.Location = new System.Drawing.Point(504, 517);
-            this.btnI.Name = "btnI";
-            this.btnI.Size = new System.Drawing.Size(28, 25);
-            this.btnI.TabIndex = 57;
-            this.btnI.Text = "I";
-            this.btnI.Click += new System.EventHandler(this.btnI_Click);
-            // 
-            // btnU
-            // 
-            this.btnU.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnU.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnU.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnU.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnU.FillColor = System.Drawing.SystemColors.Window;
-            this.btnU.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnU.ForeColor = System.Drawing.Color.Black;
-            this.btnU.Location = new System.Drawing.Point(538, 517);
-            this.btnU.Name = "btnU";
-            this.btnU.Size = new System.Drawing.Size(28, 25);
-            this.btnU.TabIndex = 58;
-            this.btnU.Text = "U";
-            this.btnU.Click += new System.EventHandler(this.btnU_Click);
-            // 
             // dtpBD
             // 
             this.dtpBD.CustomFormat = "dd/MM/yyyy HH:mm";
@@ -349,20 +301,67 @@
             this.label6.TabIndex = 61;
             this.label6.Text = "--";
             // 
+            // btnB
+            // 
+            this.btnB.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnB.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnB.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnB.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnB.FillColor = System.Drawing.Color.White;
+            this.btnB.Font = new System.Drawing.Font("Times New Roman", 7.8F);
+            this.btnB.ForeColor = System.Drawing.Color.Black;
+            this.btnB.Location = new System.Drawing.Point(481, 511);
+            this.btnB.Name = "btnB";
+            this.btnB.Size = new System.Drawing.Size(33, 31);
+            this.btnB.TabIndex = 62;
+            this.btnB.Text = "B";
+            this.btnB.Click += new System.EventHandler(this.btnB_Click_1);
+            // 
+            // btnU
+            // 
+            this.btnU.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnU.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnU.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnU.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnU.FillColor = System.Drawing.Color.White;
+            this.btnU.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnU.ForeColor = System.Drawing.Color.Black;
+            this.btnU.Location = new System.Drawing.Point(557, 511);
+            this.btnU.Name = "btnU";
+            this.btnU.Size = new System.Drawing.Size(33, 31);
+            this.btnU.TabIndex = 63;
+            this.btnU.Text = "U";
+            this.btnU.Click += new System.EventHandler(this.btnU_Click_1);
+            // 
+            // btnI
+            // 
+            this.btnI.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnI.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnI.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnI.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnI.FillColor = System.Drawing.Color.White;
+            this.btnI.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnI.ForeColor = System.Drawing.Color.Black;
+            this.btnI.Location = new System.Drawing.Point(518, 511);
+            this.btnI.Name = "btnI";
+            this.btnI.Size = new System.Drawing.Size(33, 31);
+            this.btnI.TabIndex = 64;
+            this.btnI.Text = "I";
+            this.btnI.Click += new System.EventHandler(this.btnI_Click_1);
+            // 
             // frmGiaoviec
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(599, 625);
+            this.ClientSize = new System.Drawing.Size(608, 625);
+            this.Controls.Add(this.btnB);
+            this.Controls.Add(this.btnU);
+            this.Controls.Add(this.btnI);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dtpKT);
             this.Controls.Add(this.dtpBD);
-            this.Controls.Add(this.btnU);
-            this.Controls.Add(this.btnI);
-            this.Controls.Add(this.btnB);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnCapnhat);
-            this.Controls.Add(this.rtbComment);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.cmbCagiao);
             this.Controls.Add(this.label4);
@@ -373,6 +372,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.guna2Button7);
+            this.Controls.Add(this.rtbComment);
             this.Name = "frmGiaoviec";
             this.Text = "Giaoviec";
             this.panel1.ResumeLayout(false);
@@ -400,11 +400,11 @@
         private System.Windows.Forms.RichTextBox rtbComment;
         private Guna.UI2.WinForms.Guna2Button btnCapnhat;
         private Guna.UI2.WinForms.Guna2Button btnHuy;
-        private Guna.UI2.WinForms.Guna2Button btnB;
-        private Guna.UI2.WinForms.Guna2Button btnI;
-        private Guna.UI2.WinForms.Guna2Button btnU;
         private System.Windows.Forms.DateTimePicker dtpBD;
         private System.Windows.Forms.DateTimePicker dtpKT;
         private System.Windows.Forms.Label label6;
+        private Guna.UI2.WinForms.Guna2Button btnB;
+        private Guna.UI2.WinForms.Guna2Button btnU;
+        private Guna.UI2.WinForms.Guna2Button btnI;
     }
 }
